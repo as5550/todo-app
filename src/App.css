@@ -1,0 +1,45 @@
+.todo-app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.add-todo input {
+  padding: 10px;
+  width: 80%;
+  margin-right: 10px;
+}
+
+.add-todo button {
+  padding: 10px;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.todo-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.filter button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.filter button:hover {
+  background-color: lightgray;
+}
